@@ -10,5 +10,5 @@ let port = process.env.PORT || 8080;
 app.listen(port);
 
 app.get('/', function(req, res) {
-	console.log(req.query.val1, req.query.val2, req.query.val3)
+	console.log(req.query)
 });
